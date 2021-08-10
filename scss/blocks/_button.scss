@@ -1,0 +1,25 @@
+.header-button {
+  background-image: $color-gradient;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  padding: 8px 36px 8px 33px;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  opacity: 40%;
+  transition: 0.5s ease;
+}
+
+.header-button:active {
+  opacity: 60%;
+}

@@ -1,0 +1,84 @@
+.service__box {}
+
+.service {}
+
+.service-title {
+  font-family: "Public Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.7142857313156128px;
+  text-align: left;
+  color: $color-title;
+  width: 411px;
+  padding: 0;
+  margin: 0;
+  margin-top: 96px;
+}
+
+.service-text {
+  width: 635px;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  text-align: left;
+  color: $color-text;
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.service-list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.service-item {
+  width: 255px;
+  margin-top: 72px;
+}
+
+.service-item~.service-item {
+  margin-left: 30px;
+}
+
+.service-item-img {
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.service-item-title {
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 28px;
+  letter-spacing: -0.4285714328289032px;
+  text-align: left;
+  color: $color-title;
+  padding: 0;
+  margin: 0;
+}
+
+.service-item-text {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: $color-text;
+  padding: 0;
+  margin: 0;
+  margin-top: 26px;
+  margin-bottom: 94px;
+}

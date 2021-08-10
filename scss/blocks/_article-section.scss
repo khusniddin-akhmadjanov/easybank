@@ -1,0 +1,105 @@
+.article-section-wrapper {
+  background-color: #fff;
+}
+
+.article__section {
+  padding: 0;
+  margin: 0;
+}
+
+.article {
+  padding-top: 80px;
+}
+
+.article-title {
+  font-family: "Public Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.7142857313156128px;
+  text-align: left;
+  color: $color-title;
+  margin: 0;
+  padding: 0;
+}
+
+.article-list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.article-item {
+  width: 255px;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.article-item~.article-item {
+  margin-left: 30px;
+}
+
+.article-img {
+  width: 255px;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.article-img-subtitle {
+  font-family: "Public Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  color: $color-text;
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+
+.article-item-title {
+  @include link-unstyled;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: -0.2857142984867096px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  color: $color-title;
+  margin-left: 24px;
+  margin-bottom: 8px;
+
+}
+
+.article-item-title:hover {
+  color:  #30C88F;
+  transition: 0.5s ease;
+}
+
+.article-item-title:active {
+  color:  #22976c;
+}
+
+.article-text {
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.203125px;
+  text-align: left;
+  color: $color-text;
+  margin: 0;
+  padding: 0;
+  margin-left: 24px;
+  margin-bottom: 104px;
+}
