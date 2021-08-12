@@ -1,14 +1,20 @@
+//LISTLAR UCHUN MIXIN
+
 @mixin list-unstyled {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
+//LINK HAVOLALAR UCHUN MIXIN
+
 @mixin link-unstyled  {
   padding: 0;
   margin: 0;
   text-decoration: none;
 }
+
+//BUTTONLAR UCHUN MIXIN
 
 @mixin site-button {
   background-image: $color-gradient;
@@ -24,4 +30,12 @@
   border-radius: 22px;
   padding: 8px 36px 8px 33px;
   cursor: pointer;
+}
+
+//MEDIA SO`ROVLAR UCHUN MIXIN
+
+@mixin breakpoint-down ($screen-width) {
+  @media only screen and (max-width: $screen-width) {
+    @content
+  }
 }

@@ -23,3 +23,17 @@
 .header-button:active {
   opacity: 60%;
 }
+
+.header-section__hamburger-button {
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+
+@include breakpoint-down (725px) {
+  .header-section__hamburger-button {
+    display: block;
+    margin-right: 10px;
+  }
+
+}

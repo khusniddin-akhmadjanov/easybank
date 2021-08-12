@@ -2,6 +2,9 @@
   background-color: #ffff;
   position: fixed;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1;
 }
 
@@ -26,11 +29,9 @@
   display: block;
   width: 139px;
   height: 20px;
-  margin-right: 251px;
 }
 
 .header-nav {
-  margin-right: 100px;
 }
 
 .navbar {
@@ -61,4 +62,14 @@
   border-bottom: 4px solid #33D35E;
   transition: 0.5s ease;
   border-bottom-color: linear-gradient( to left, #33D35E, #2AB6D9);
+}
+
+@include breakpoint-down (725px) {
+
+  .header-nav {
+    display: none;
+  }
+  .header-wrapper-button {
+    display: none;
+  }
 }
