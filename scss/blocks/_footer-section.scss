@@ -151,3 +151,23 @@ footer {
   }
 }
 
+@include breakpoint-down (375px) {
+
+  .footer-section {
+    width: 280px;
+  }
+
+  .logo-media-box {
+    width: 250px;
+  }
+}
+
+
+@include breakpoint-down (340px) {
+  .footer-section {
+    padding: 0;
+    margin: 0;
+    
+  }
+
+}

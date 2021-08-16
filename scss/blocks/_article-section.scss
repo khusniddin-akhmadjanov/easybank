@@ -30,6 +30,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .article-item {
@@ -39,9 +41,6 @@
   margin-top: 40px;
 }
 
-// .article-item~.article-item {
-//   margin-left: 30px;
-// }
 
 .article-img {
   width: 255px;
@@ -142,4 +141,23 @@
     flex-wrap: wrap;
   }
 
+}
+
+@include breakpoint-down (320px) {
+  .article-img {
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    height: 180px;
+  }
+
+  .article-list {
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .article-section-wrapper {
+    width: 350px;
+  }
 }
